@@ -7,3 +7,9 @@ if place_meeting(x,y, oPlayerParent) {
 else {
 	has_touched = false
 }
+if has_touched{
+	sprite_index = 0	
+}
+else{
+	sprite_index = 1
+}

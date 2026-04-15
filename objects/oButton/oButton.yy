@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"placeholder32",
-    "path":"sprites/placeholder32/placeholder32.yy",
+    "name":"sButton",
+    "path":"sprites/sButton/sButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

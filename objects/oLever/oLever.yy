@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"placeholder32",
-    "path":"sprites/placeholder32/placeholder32.yy",
+    "name":"sLever",
+    "path":"sprites/sLever/sLever.yy",
   },
   "spriteMaskId":null,
   "visible":true,
