@@ -1,14 +1,14 @@
-if keyboard_check(vk_left){
+if keyboard_check(ord("A")){
 	// Add -2 to horizontal speed.
 	hspeed += -4
 }
 
 // If the D key is down...
-if keyboard_check(vk_right){
+if keyboard_check(ord("D")){
 	// Add 2 to horizontal speed.
 	hspeed += 4
 }
-if (!keyboard_check(vk_right) and !keyboard_check(vk_left)){
+if (!keyboard_check(ord("D")) and !keyboard_check(ord("A"))){
 	hspeed = 0
 }
 hspeed = clamp(hspeed, -4, 4)
@@ -40,14 +40,14 @@ else{
 }
 
 //jump
-if (keyboard_check(vk_up)) {
+if (keyboard_check(ord("W"))) {
     if (place_meeting(x, y + 1, tilemap)) {
         vspeed = jump_height
     }
 }
 
 //variable jump
-if (!keyboard_check(vk_up) && vspeed < 0) {
+if (!keyboard_check(ord("W")) && vspeed < 0) {
     vspeed *= 0.7
 }
 

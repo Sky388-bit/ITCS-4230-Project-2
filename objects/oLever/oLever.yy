@@ -1,20 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer1",
+  "%Name":"oLever",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayer1",
-  "overriddenProperties":[],
+  "name":"oLever",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oSwitchParent","path":"objects/oSwitchParent/oSwitchParent.yy",},"propertyId":{"name":"active","path":"objects/oSwitchParent/oSwitchParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+  ],
   "parent":{
-    "name":"Players",
-    "path":"folders/Objects/Players.yy",
+    "name":"Elements",
+    "path":"folders/Objects/Elements.yy",
   },
   "parentObjectId":{
-    "name":"oPlayerParent",
-    "path":"objects/oPlayerParent/oPlayerParent.yy",
+    "name":"oSwitchParent",
+    "path":"objects/oSwitchParent/oSwitchParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -29,13 +31,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"jump_height","filters":[],"listItems":[],"multiselect":false,"name":"jump_height","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-8","varType":1,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"placeholder32",
+    "path":"sprites/placeholder32/placeholder32.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
