@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"sDoorRight",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":31,
-  "bbox_left":13,
-  "bbox_right":30,
+  "bbox_left":15,
+  "bbox_right":18,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
