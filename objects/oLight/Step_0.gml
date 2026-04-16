@@ -1,7 +1,7 @@
 // test
 if active {
-	visible = true
+	image_index = 1
 }
 else {
-	visible = false
+	image_index = 0
 }

@@ -1,4 +1,4 @@
-if (place_meeting(x,y, oPlayerParent)) and (not pressed) {
+if (place_meeting(x,y, oPlayerParent) or place_meeting(x,y, oBox)) and (not pressed) {
 	pressed = true
 	toggle()
 }

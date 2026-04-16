@@ -8,8 +8,8 @@ else {
 	has_touched = false
 }
 if has_touched{
-	sprite_index = 0	
+	image_index = 0	
 }
 else{
-	sprite_index = 1
+	image_index = 1
 }
