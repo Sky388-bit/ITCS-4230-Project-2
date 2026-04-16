@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"MapTileSheet",
   "bboxMode":0,
-  "bbox_bottom":255,
+  "bbox_bottom":287,
   "bbox_left":0,
   "bbox_right":255,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b37c0778-8593-468a-88b2-5d011abfdec0","name":"b37c0778-8593-468a-88b2-5d011abfdec0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"16c81b88-0ca2-4211-bd6a-bf71849f6f18","name":"16c81b88-0ca2-4211-bd6a-bf71849f6f18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":256,
+  "height":288,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"041d9ad7-d0eb-45fa-887c-0bafc1fa7c02","blendMode":0,"displayName":"default","isLocked":false,"name":"041d9ad7-d0eb-45fa-887c-0bafc1fa7c02","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4ee11892-f33a-4b21-b105-6cf6380f0fdc","blendMode":0,"displayName":"default","isLocked":false,"name":"4ee11892-f33a-4b21-b105-6cf6380f0fdc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"MapTileSheet",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b37c0778-8593-468a-88b2-5d011abfdec0","path":"sprites/MapTileSheet/MapTileSheet.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"aa02b36b-cfb2-4b94-ada8-e47019a70f35","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"16c81b88-0ca2-4211-bd6a-bf71849f6f18","path":"sprites/MapTileSheet/MapTileSheet.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c566bb3f-93cc-4333-b4a7-bf1cedb0b676","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
