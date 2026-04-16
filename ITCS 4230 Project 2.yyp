@@ -52,6 +52,7 @@
     {"id":{"name":"oDoorRight","path":"objects/oDoorRight/oDoorRight.yy",},},
     {"id":{"name":"oLever","path":"objects/oLever/oLever.yy",},},
     {"id":{"name":"oLight","path":"objects/oLight/oLight.yy",},},
+    {"id":{"name":"oLightProjection","path":"objects/oLightProjection/oLightProjection.yy",},},
     {"id":{"name":"oMoonDoor","path":"objects/oMoonDoor/oMoonDoor.yy",},},
     {"id":{"name":"oPlayer1","path":"objects/oPlayer1/oPlayer1.yy",},},
     {"id":{"name":"oPlayer2","path":"objects/oPlayer2/oPlayer2.yy",},},

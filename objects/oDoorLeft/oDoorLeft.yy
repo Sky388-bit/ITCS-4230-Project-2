@@ -1,15 +1,25 @@
 {
   "$GMObject":"",
   "%Name":"oDoorLeft",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oDoorLeft",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oLight","path":"objects/oLight/oLight.yy",},"propertyId":{"name":"active","path":"objects/oLight/oLight.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oLight","path":"objects/oLight/oLight.yy",},"propertyId":{"name":"link_id","path":"objects/oLight/oLight.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+  ],
   "parent":{
     "name":"Elements",
     "path":"folders/Objects/Elements.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oLight",
+    "path":"objects/oLight/oLight.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
