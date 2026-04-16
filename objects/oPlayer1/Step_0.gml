@@ -1,18 +1,18 @@
+move = 0
 
-if (keyboard_check(vk_left)){
-	// Add -2 to horizontal speed.
-	hspeed += -4
-}
-
-// If the D key is down...
 if (keyboard_check(vk_right)){
-	// Add 2 to horizontal speed.
-	hspeed += 4
+	move = 1
 }
+else if (keyboard_check(vk_left)){
+	move = -1
+}
+
+hspeed += move * 4
+hspeed = clamp(hspeed, -4, 4)
 if (!keyboard_check(vk_right) and !keyboard_check(vk_left)){
 	hspeed = 0
 }
-hspeed = clamp(hspeed, -4, 4)
+
 //sprite controller
 if hspeed == 0{
 	sprite_index = sPlayer1
@@ -42,7 +42,7 @@ else{
 
 //jump
 if (keyboard_check(vk_up)) {
-    if (place_meeting(x, y + 1, tilemap)) {
+    if (place_meeting(x, y + 3, tilemap)) {
         vspeed = jump_height
     }
 }

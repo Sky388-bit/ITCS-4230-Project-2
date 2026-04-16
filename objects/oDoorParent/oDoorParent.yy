@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayerParent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oDoorParent","path":"objects/oDoorParent/oDoorParent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oDoorParent",
+  "eventList":[],
   "managed":true,
-  "name":"oPlayerParent",
+  "name":"oDoorParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Players",
-    "path":"folders/Objects/Players.yy",
+    "name":"Elements",
+    "path":"folders/Objects/Elements.yy",
   },
   "parentObjectId":null,
   "persistent":false,

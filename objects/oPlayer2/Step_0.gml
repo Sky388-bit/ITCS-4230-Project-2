@@ -1,13 +1,14 @@
-if keyboard_check(ord("A")){
-	// Add -2 to horizontal speed.
-	hspeed += -4
+move = 0
+
+if (keyboard_check(ord("A"))){
+	move = -1
+}
+else if (keyboard_check(ord("D"))){
+	move = 1
 }
 
-// If the D key is down...
-if keyboard_check(ord("D")){
-	// Add 2 to horizontal speed.
-	hspeed += 4
-}
+hspeed += move * 4
+hspeed = clamp(hspeed, -4, 4)
 if (!keyboard_check(ord("D")) and !keyboard_check(ord("A"))){
 	hspeed = 0
 }

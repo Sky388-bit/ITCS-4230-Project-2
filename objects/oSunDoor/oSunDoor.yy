@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"oSunDoor",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oSunDoor",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Elements",
     "path":"folders/Objects/Elements.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oExitDoorParent",
+    "path":"objects/oExitDoorParent/oExitDoorParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

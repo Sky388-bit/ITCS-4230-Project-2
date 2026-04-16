@@ -1,22 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oMoonDoor",
+  "%Name":"oExitDoorParent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oMoonDoor",
+  "name":"oExitDoorParent",
   "overriddenProperties":[],
   "parent":{
     "name":"Elements",
     "path":"folders/Objects/Elements.yy",
   },
-  "parentObjectId":{
-    "name":"oExitDoorParent",
-    "path":"objects/oExitDoorParent/oExitDoorParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sMoonDoor",
-    "path":"sprites/sMoonDoor/sMoonDoor.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

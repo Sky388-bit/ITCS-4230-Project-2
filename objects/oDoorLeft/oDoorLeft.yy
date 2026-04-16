@@ -13,7 +13,10 @@
     "name":"Elements",
     "path":"folders/Objects/Elements.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oDoorParent",
+    "path":"objects/oDoorParent/oDoorParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,7 +36,7 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"sDoorLeft",
     "path":"sprites/sDoorLeft/sDoorLeft.yy",
