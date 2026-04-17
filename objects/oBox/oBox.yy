@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"oBox",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayerParent","path":"objects/oPlayerParent/oPlayerParent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
@@ -13,7 +12,10 @@
     "name":"Elements",
     "path":"folders/Objects/Elements.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oPlayerParent",
+    "path":"objects/oPlayerParent/oPlayerParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,7 +37,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"sBox",
     "path":"sprites/sBox/sBox.yy",
