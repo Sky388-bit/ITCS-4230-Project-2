@@ -53,11 +53,15 @@ if (!keyboard_check(vk_up) && vspeed < 0) {
 }
 
 //collision
-if (place_meeting(x + hspeed, y, tilemap) or place_meeting(x + hspeed, y, oBox)) {
+if (place_meeting(x + hspeed, y, tilemap)) {
     hspeed = 0
 }
 
-if (place_meeting(x, y + vspeed + 1, tilemap) or place_meeting(x, y + vspeed + 1, oBox)) {
+if (place_meeting(x, y + vspeed, tilemap)) {
+    vspeed = 0
+}
+
+if (place_meeting(x + hspeed, y + vspeed, tilemap)) {
     vspeed = 0
 }
 

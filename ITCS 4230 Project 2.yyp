@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"ITCS 4230 Project 2",
   "resources":[
@@ -75,6 +75,7 @@
     {"id":{"name":"sItemSheet","path":"sprites/sItemSheet/sItemSheet.yy",},},
     {"id":{"name":"sLever","path":"sprites/sLever/sLever.yy",},},
     {"id":{"name":"sLight","path":"sprites/sLight/sLight.yy",},},
+    {"id":{"name":"sLightCone","path":"sprites/sLightCone/sLightCone.yy",},},
     {"id":{"name":"sMoonDoor","path":"sprites/sMoonDoor/sMoonDoor.yy",},},
     {"id":{"name":"sMovingPlatform","path":"sprites/sMovingPlatform/sMovingPlatform.yy",},},
     {"id":{"name":"sPlayer1","path":"sprites/sPlayer1/sPlayer1.yy",},},
@@ -87,9 +88,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},},
     {"roomId":{"name":"Tutorial_2","path":"rooms/Tutorial_2/Tutorial_2.yy",},},
     {"roomId":{"name":"Tutorial_1","path":"rooms/Tutorial_1/Tutorial_1.yy",},},
-    {"roomId":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
