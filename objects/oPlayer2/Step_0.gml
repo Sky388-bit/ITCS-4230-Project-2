@@ -42,7 +42,7 @@ else{
 
 //jump
 if (keyboard_check(ord("W"))) {
-    if (place_meeting(x, y + 1, tilemap)) {
+    if (place_meeting(x, y + 1, tilemap) or place_meeting(x, y + vspeed +1, oBox)) {
         vspeed = jump_height
     }
 }
@@ -57,7 +57,7 @@ if (place_meeting(x + hspeed, y, tilemap)) {
     hspeed = 0
 }
 
-if (place_meeting(x, y + vspeed + 1, tilemap) or place_meeting(x, y + vspeed +1, oBox)) {
+if (place_meeting(x, y + vspeed + 1, tilemap) or place_meeting(x, y + vspeed, oBox)) {
     vspeed = 0
 }
 
