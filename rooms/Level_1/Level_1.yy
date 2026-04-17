@@ -21,7 +21,7 @@
     {"name":"inst_4DEDE6F8","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_18D977BE","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_9C8F24D","path":"rooms/Level_1/Level_1.yy",},
-    {"name":"inst_7D98FCAC","path":"rooms/Level_1/Level_1.yy",},
+    {"name":"inst_6339D1CD","path":"rooms/Level_1/Level_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -51,7 +51,7 @@
         {"$GMRInstance":"v4","%Name":"inst_4F3EA7EA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F3EA7EA","objectId":{"name":"oLever","path":"objects/oLever/oLever.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oSwitchParent","path":"objects/oSwitchParent/oSwitchParent.yy",},"propertyId":{"name":"link_id","path":"objects/oSwitchParent/oSwitchParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":179.0,"y":61.0,},
-        {"$GMRInstance":"v4","%Name":"inst_7D98FCAC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D98FCAC","objectId":{"name":"oBox","path":"objects/oBox/oBox.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":307.0,"y":180.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6339D1CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6339D1CD","objectId":{"name":"oBox","path":"objects/oBox/oBox.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":195.0,"y":216.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Doors","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_4E25E46E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E25E46E","objectId":{"name":"oMoonDoor","path":"objects/oMoonDoor/oMoonDoor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":141.0,},
