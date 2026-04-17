@@ -28,7 +28,7 @@ if hspeed != 0{
 	}
 }
 //gravity
-if !place_meeting(x, y + 1 , tilemap){
+if !place_meeting(x, y + 1 , tilemap) and !place_meeting(x, y + 1 , oBox){
 	if (vspeed > 0) {
     gravity = 0.7
 	} 
@@ -42,7 +42,7 @@ else{
 
 //jump
 if (keyboard_check(vk_up)) {
-    if (place_meeting(x, y + 3, tilemap) or place_meeting(x,y+3, oBox)) {
+    if (place_meeting(x, y + 3, tilemap) or place_meeting(x,y+1, oBox)) {
         vspeed = jump_height
     }
 }
@@ -57,7 +57,7 @@ if (place_meeting(x + hspeed, y, tilemap)) {
     hspeed = 0
 }
 
-if (place_meeting(x, y + vspeed +1, tilemap)) {
+if (place_meeting(x, y + vspeed +1, tilemap) or place_meeting(x, y + vspeed, oBox)) {
     vspeed = 0
 }
 
