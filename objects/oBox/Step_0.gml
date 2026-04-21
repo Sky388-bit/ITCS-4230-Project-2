@@ -1,5 +1,5 @@
 //friction
-hspeed *= 0.7
+hspeed *= 0.6
 
 //gravity
 if !place_meeting(x, y + 1 , tilemap){
