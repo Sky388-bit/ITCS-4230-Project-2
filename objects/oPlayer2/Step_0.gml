@@ -44,6 +44,7 @@ else{
 if (keyboard_check(ord("W"))) {
     if (place_meeting(x, y + 3, tilemap) or place_meeting(x, y + vspeed +1, oBox)) {
         vspeed = jump_height
+		audio_play_sound(sndJump, 1, false)
     }
 }
 

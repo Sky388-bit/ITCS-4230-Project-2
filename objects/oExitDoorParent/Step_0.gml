@@ -1,4 +1,4 @@
-if not place_meeting(x,y, oPlayerParent){
+ if not place_meeting(x,y, oPlayerParent){
 	image_index = 0 
 }
 else{
@@ -7,3 +7,6 @@ else{
 	}
 }
 image_index = clamp(image_index, 0, 3)
+
+if image_index == 3 { open = true }
+else { open = false }
