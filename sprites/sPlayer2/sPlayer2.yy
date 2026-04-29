@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"sPlayer2",
   "bboxMode":2,
-  "bbox_bottom":31,
+  "bbox_bottom":30,
   "bbox_left":9,
   "bbox_right":22,
   "bbox_top":9,

@@ -1,0 +1,1 @@
+draw_sprite(sExitbutton, 0, x, y);

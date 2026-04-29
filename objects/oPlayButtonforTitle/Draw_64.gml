@@ -1,0 +1,1 @@
+draw_sprite(sPlayButton, 0, x, y);

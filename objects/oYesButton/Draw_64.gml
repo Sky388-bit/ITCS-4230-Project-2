@@ -1,0 +1,1 @@
+draw_sprite(sYesButton, 0, x, y);

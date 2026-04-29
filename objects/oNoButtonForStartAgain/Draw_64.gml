@@ -1,0 +1,1 @@
+draw_sprite(sNoButton, 0, x, y);
