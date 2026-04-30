@@ -95,6 +95,8 @@
     {"id":{"name":"unpause","path":"scripts/unpause/unpause.yy",},},
     {"id":{"name":"buttonPress","path":"sounds/buttonPress/buttonPress.yy",},},
     {"id":{"name":"musPuzzle","path":"sounds/musPuzzle/musPuzzle.yy",},},
+    {"id":{"name":"snd_lever","path":"sounds/snd_lever/snd_lever.yy",},},
+    {"id":{"name":"snd_light","path":"sounds/snd_light/snd_light.yy",},},
     {"id":{"name":"sndJump","path":"sounds/sndJump/sndJump.yy",},},
     {"id":{"name":"homescreen","path":"sprites/homescreen/homescreen.yy",},},
     {"id":{"name":"MapTileSheet","path":"sprites/MapTileSheet/MapTileSheet.yy",},},
@@ -135,13 +137,13 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"title","path":"rooms/title/title.yy",},},
     {"roomId":{"name":"Tutorial_1","path":"rooms/Tutorial_1/Tutorial_1.yy",},},
     {"roomId":{"name":"Tutorial_2","path":"rooms/Tutorial_2/Tutorial_2.yy",},},
     {"roomId":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},},
     {"roomId":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
     {"roomId":{"name":"Level_3","path":"rooms/Level_3/Level_3.yy",},},
     {"roomId":{"name":"Level_4","path":"rooms/Level_4/Level_4.yy",},},
-    {"roomId":{"name":"title","path":"rooms/title/title.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

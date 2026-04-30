@@ -128,18 +128,23 @@ if (mouse_over)
 		// Checks for mouse release or gamepad bypass.
 		if (mouse_check_button_released(mb_left) || gamepad_bypass)
 		{
-			audio_play_sound(buttonPress, 1, false)
-			//Destroys controls
-			with(oControlsButton) instance_destroy();
-			// Destroys Exit.
-			with(oExitButton) instance_destroy();
+			if room != title{
+				audio_play_sound(buttonPress, 1, false)
+				//Destroys controls
+				with(oControlsButton) instance_destroy();
+				// Destroys Exit.
+				with(oExitButton) instance_destroy();
 	
-			// Destroys menu.
-			with(oPauseMenu) instance_destroy();
+				// Destroys menu.
+				with(oPauseMenu) instance_destroy();
 	
-			// Destroys play.
-			with(oPlayButton) instance_destroy();
-			room_goto(title)
+				// Destroys play.
+				with(oPlayButton) instance_destroy();
+				room_goto(title)
+			}
+			if room == title{
+				game_end()
+			}
 		}
 	}
 }

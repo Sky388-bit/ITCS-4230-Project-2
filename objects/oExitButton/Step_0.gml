@@ -128,6 +128,9 @@ if (mouse_over)
 		// Checks for mouse release or gamepad bypass.
 		if (mouse_check_button_released(mb_left) || gamepad_bypass)
 		{
+			if room = title{
+				game_end()
+			}
 			audio_play_sound(buttonPress, 1, false)
 			if !instance_exists(oConfirmationBox){
 				instance_create_layer(1920 / 2, 1080/ 2, "higher", oConfirmationBox)

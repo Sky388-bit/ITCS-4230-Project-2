@@ -129,7 +129,7 @@ if (mouse_over)
 		if (mouse_check_button_released(mb_left) || gamepad_bypass)
 		{
 			audio_play_sound(buttonPress, 1, false)
-			room_goto(Explainer)
+			room_goto(Tutorial_1)
 		}
 	}
 }
