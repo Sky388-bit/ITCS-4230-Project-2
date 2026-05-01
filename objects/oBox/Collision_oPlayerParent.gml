@@ -1,6 +1,7 @@
+
+
 if not place_meeting(x + other.hspeed,y, tilemap){
-	if y - other.y < 3{
-		hspeed += other.hspeed
+	if(abs(y - other.y) < 2){
+		hspeed += other.hspeed +0.6
 	}
 }
-	
