@@ -1,0 +1,12 @@
+ if not place_meeting(x,y, oPlayer2){
+	image_index = 0 
+}
+else{
+	if image_index > 3{
+		alarm[0]= 45	
+	}
+}
+image_index = clamp(image_index, 0, 3)
+
+if image_index == 3 { open = true }
+else { open = false }

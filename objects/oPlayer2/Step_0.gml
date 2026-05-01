@@ -40,12 +40,32 @@ else{
 	gravity = 0
 }
 
-//jump
-if (keyboard_check(ord("W"))) {
-    if (place_meeting(x, y + 3, tilemap) or place_meeting(x, y + vspeed +1, oBox)) {
-        vspeed = jump_height
-		audio_play_sound(sndJump, 1, false)
-    }
+// Ground check (MUCH more reliable)
+var on_ground =
+    collision_rectangle(
+        bbox_left + 2,
+        bbox_bottom,
+        bbox_right - 2,
+        bbox_bottom + 2,
+        tilemap,
+        false,
+        true
+    )
+    ||
+    collision_rectangle(
+        bbox_left + 2,
+        bbox_bottom,
+        bbox_right - 2,
+        bbox_bottom + 2,
+        oBox,
+        false,
+        true
+    );
+
+// Jump
+if (keyboard_check_pressed(ord("W")) && on_ground) {
+    vspeed = jump_height;
+    audio_play_sound(sndJump, 1, false);
 }
 
 //variable jump
