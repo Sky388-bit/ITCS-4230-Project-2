@@ -146,6 +146,7 @@
     {"id":{"name":"sPlayer1Falling","path":"sprites/sPlayer1Falling/sPlayer1Falling.yy",},},
     {"id":{"name":"sPlayer1Jump","path":"sprites/sPlayer1Jump/sPlayer1Jump.yy",},},
     {"id":{"name":"sPlayer2","path":"sprites/sPlayer2/sPlayer2.yy",},},
+    {"id":{"name":"Sprite39","path":"sprites/Sprite39/Sprite39.yy",},},
     {"id":{"name":"sS","path":"sprites/sS/sS.yy",},},
     {"id":{"name":"sShowControlsButton","path":"sprites/sShowControlsButton/sShowControlsButton.yy",},},
     {"id":{"name":"sSunDoor","path":"sprites/sSunDoor/sSunDoor.yy",},},
