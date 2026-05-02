@@ -27,3 +27,6 @@ if room == transition_lvl_3{
 if room == transition_lvl_4{
 	draw_text_transformed(x_mid, y_mid, "Level 5", 2,2,0)
 }
+if room == transition_lvl_5{
+	draw_text_transformed(x_mid, y_mid, "Thanks for playing!", 2,2,0)
+}

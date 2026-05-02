@@ -52,11 +52,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"ITCS 4230 Project 2",
   "resources":[
     {"id":{"name":"silver","path":"fonts/silver/silver.yy",},},
+    {"id":{"name":"oBackToMain","path":"objects/oBackToMain/oBackToMain.yy",},},
     {"id":{"name":"oBox","path":"objects/oBox/oBox.yy",},},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},},
     {"id":{"name":"oCommand","path":"objects/oCommand/oCommand.yy",},},
@@ -98,6 +99,8 @@
     {"id":{"name":"transition_lvl_2","path":"rooms/transition_lvl_2/transition_lvl_2.yy",},},
     {"id":{"name":"transition_lvl_3","path":"rooms/transition_lvl_3/transition_lvl_3.yy",},},
     {"id":{"name":"transition_lvl_4","path":"rooms/transition_lvl_4/transition_lvl_4.yy",},},
+    {"id":{"name":"transition_lvl_5","path":"rooms/transition_lvl_5/transition_lvl_5.yy",},},
+    {"id":{"name":"transition_lvl_6","path":"rooms/transition_lvl_6/transition_lvl_6.yy",},},
     {"id":{"name":"transitiontut0","path":"rooms/transitiontut0/transitiontut0.yy",},},
     {"id":{"name":"transitiontut1","path":"rooms/transitiontut1/transitiontut1.yy",},},
     {"id":{"name":"transitiontut2","path":"rooms/transitiontut2/transitiontut2.yy",},},
@@ -171,6 +174,8 @@
     {"roomId":{"name":"Level_4","path":"rooms/Level_4/Level_4.yy",},},
     {"roomId":{"name":"transition_lvl_4","path":"rooms/transition_lvl_4/transition_lvl_4.yy",},},
     {"roomId":{"name":"Level_5","path":"rooms/Level_5/Level_5.yy",},},
+    {"roomId":{"name":"transition_lvl_5","path":"rooms/transition_lvl_5/transition_lvl_5.yy",},},
+    {"roomId":{"name":"transition_lvl_6","path":"rooms/transition_lvl_6/transition_lvl_6.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

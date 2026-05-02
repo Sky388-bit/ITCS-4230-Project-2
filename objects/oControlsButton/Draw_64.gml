@@ -26,7 +26,7 @@ if show_controls{
 	    draw_sprite(sMenuBacking,0, x + 240, y + 4)
 
 	    draw_text_transformed(x + 130, y - 151, "Cheat Codes", 1, 1, 0)
-	    draw_text_transformed(x + 130, y - 107, "R - Restart Level", 1, 1, 0)
+	    draw_text_transformed(x + 130, y - 107, "N - Next Level", 1, 1, 0)
 	    draw_text_transformed(x + 130, y - 62, "", 1.5, 1.5, 0)
 	    draw_text_transformed(x + 130, y - 18, "", 1.5, 1.5, 0)
 	    draw_text_transformed(x + 130, y + 27, "", 1.5,1.5, 0)
